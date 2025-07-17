@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.feature {
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 0 10px;
+}
+
+.testimonials {
+    background-color: #e9ecef;
+    padding: 20px;
+    text-align: center;
+}
+
+.testimonial {
+    margin: 10px 0;
+    font-style: italic;
+}
+
+.call-to-action {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.call-to-action button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.call-to-action button:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* --- Estilos para la navegación principal (nav) --- */
+nav {
+    background-color: #222;
+    padding: 0.5em 0;
+    text-align: center;
+    border-radius: 8px;
+    margin: 20px 0 30px 0;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    gap: 2em;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+    padding: 8px 18px;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+    background: #00bcd4;
+    color: #222;
+}
+
+/* --- Estilo para la imagen del logo --- */
+.logo img {
+    width: 90px;              /* Tamaño fijo para el logo */
+    height: 90px;
+    object-fit: contain;      /* Mantiene la proporción de la imagen */
+    border-radius: 50%;       /* Hace el logo circular */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* Sombra suave */
+    background: #fff;         /* Fondo blanco para destacar el logo */
+    margin: 10px auto 15px auto;
+    display: block;
+}
